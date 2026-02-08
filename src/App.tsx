@@ -1,8 +1,13 @@
+import { Container } from './components/Container/Container'
 import './styles'
 
 function App() {
   return (
-    <h1>КИНОДОМ</h1>
+    <section>
+      <Container>
+        <h1>КИНОДОМ</h1>
+      </Container>
+    </section>
   )
 }
 
