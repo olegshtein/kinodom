@@ -9,8 +9,8 @@ export const NavigationMenu = (props: Props) => {
     <BaseUINavigationMenu.Root className={styles.nav}>
       <BaseUINavigationMenu.List className={styles.list}>
         {links.map(({ href, anchor }) => (
-          <BaseUINavigationMenu.Item>
-            <BaseUINavigationMenu.Link href={href}>
+          <BaseUINavigationMenu.Item className={styles.item}>
+            <BaseUINavigationMenu.Link className={styles.link} href={href}>
               {anchor}
             </BaseUINavigationMenu.Link>
           </BaseUINavigationMenu.Item>
