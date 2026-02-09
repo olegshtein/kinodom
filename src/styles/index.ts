@@ -1,3 +1,4 @@
 import './base.css'
 import './variables.css'
 import './fonts.css'
+import './app.css'
