@@ -27,3 +27,9 @@ img, picture, video, canvas, svg {
 input, button, textarea, select {
   font: inherit;
 }
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
