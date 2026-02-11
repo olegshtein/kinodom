@@ -1,8 +1,9 @@
-import './App.css'
+import { Header } from './components/Header/Header'
+import './styles'
 
 function App() {
   return (
-    <h1>КИНОДОМ</h1>
+    <Header></Header>
   )
 }
 

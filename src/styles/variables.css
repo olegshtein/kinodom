@@ -1,0 +1,25 @@
+:root {
+  --color-black-1: #141025;
+  --color-black-2: #1A0335;
+  --color-white: #FFFFFF;
+  --color-gray: #CFD0D9;
+  --color-red: #ED0A32;
+
+  --border: var(--border-width) solid var(--color-white);
+
+  --border-width: 1px;
+
+  --border-radius-15: 15px;
+  --border-radius-10: 10px;
+  --border-radius-round: 50%;
+
+  --font-family-base: Inter, system-ui, -apple-system;
+
+  --container-max-width: 1400px;
+  --container-padding-x: 16px;
+
+  --space-section: 120px;
+
+  --transition-duration: 0.2s;
+  --transition-duration-longer: 0.4s;
+}

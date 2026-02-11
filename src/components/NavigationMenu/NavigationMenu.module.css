@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  & + .item {
+    margin-left: 30px;
+  }
+}
+
+.link {
+  font-weight: 600;
+  color: currentColor;
+  text-decoration: none;
+  opacity: 0.5;
+}
