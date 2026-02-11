@@ -1,10 +1,7 @@
-.header {
-  padding-block: 30px;
-}
-
 .content {
   display: flex;
   column-gap: 61px;
+  padding-block: 30px;
 }
 
 .logo {
@@ -18,4 +15,10 @@
 
 .redLogo {
   color: var(--color-red);
+}
+
+.separator {
+  height: 1px;
+  background-color: var(--color-white);
+  opacity: 0.15;
 }

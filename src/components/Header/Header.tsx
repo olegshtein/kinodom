@@ -1,5 +1,6 @@
 import { Container } from '@/components/Container/Container'
 import { NavigationMenu } from '@/components/NavigationMenu/NavigationMenu.tsx'
+import { Separator } from '@base-ui/react'
 import styles from './Header.module.css'
 
 export const Header = () => {
@@ -19,6 +20,7 @@ export const Header = () => {
           </a>
           <NavigationMenu links={navigationMenuLinks} />
         </div>
+        <Separator className={styles.separator} />
       </Container>
     </header>
   )
