@@ -1,5 +1,6 @@
 import { Container } from '@/components/Container/Container'
-import { NavigationMenu } from '@/components/NavigationMenu/NavigationMenu.tsx'
+import { NavigationMenu } from '@/components/NavigationMenu/NavigationMenu'
+import { ActionsMenu } from '@/components/ActionsMenu/ActionsMenu'
 import { Separator } from '@base-ui/react'
 import styles from './Header.module.css'
 
@@ -19,6 +20,9 @@ export const Header = () => {
             <span className={styles.redLogo}>дом</span>
           </a>
           <NavigationMenu links={navigationMenuLinks} />
+          <div className={styles.contentRight}>
+            <ActionsMenu />
+          </div>
         </div>
         <Separator className={styles.separator} />
       </Container>

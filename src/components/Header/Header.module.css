@@ -17,6 +17,10 @@
   color: var(--color-red);
 }
 
+.contentRight {
+  margin-left: auto;
+}
+
 .separator {
   height: 1px;
   background-color: var(--color-white);

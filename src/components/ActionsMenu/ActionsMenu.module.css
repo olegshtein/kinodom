@@ -1,0 +1,9 @@
+.root {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+}
+
+.searchButton {
+  color: var(--color-white-a50);
+}
