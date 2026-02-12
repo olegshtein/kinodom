@@ -7,6 +7,7 @@
   --color-red: #ED0A32;
 
   --border: var(--border-width) solid var(--color-white);
+  --border-a50: var(--border-width) solid var(--color-white-a50);
 
   --border-width: 1px;
 
