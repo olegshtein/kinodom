@@ -1,20 +1,18 @@
-import SearchIcon from '@/assets/icons/search.svg?react'
-import BellIcon from '@/assets/icons/bell.svg?react'
-import AnonimIcon from '@/assets/icons/anonim.svg?react'
+import { SearchButton } from '@/components/SearchButton/SearchButton.tsx'
+import {
+  NotificationsButton
+} from '@/components/NotificationsButton/NotificationsButton'
+import {
+  AuthorizationLink
+} from '@/components/AuthorizationLink/AuthorizationLink.tsx'
 import styles from './ActionsMenu.module.css'
 
 export const ActionsMenu = () => {
   return (
     <div className={styles.root}>
-      <button className={styles.searchButton}>
-        <SearchIcon /> Поиск
-      </button>
-      <button className={styles.notificationsButton}>
-        <BellIcon />
-      </button>
-      <a className={styles.authorizationLink} href="#">
-        <AnonimIcon />
-      </a>
+      <SearchButton />
+      <NotificationsButton />
+      <AuthorizationLink />
     </div>
   )
 }

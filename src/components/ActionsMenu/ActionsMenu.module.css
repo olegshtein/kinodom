@@ -3,19 +3,3 @@
   column-gap: 30px;
   align-items: center;
 }
-
-.searchButton {
-  display: flex;
-  column-gap: 6px;
-  color: var(--color-white-a50);
-}
-
-.authorizationLink {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  width: 55px;
-  height: 54px;
-  border: var(--border-a50);
-  border-radius: var(--border-radius-10);
-}
