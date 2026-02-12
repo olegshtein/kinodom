@@ -1,5 +1,6 @@
 .content {
   display: flex;
+  align-items: center;
   column-gap: 61px;
   padding-block: 30px;
 }
