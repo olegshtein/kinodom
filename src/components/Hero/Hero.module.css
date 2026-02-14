@@ -1,0 +1,25 @@
+.content {
+  display: grid;
+  grid-template-columns: 426px 856px;
+  grid-template-areas:
+    ". slider"
+    "title slider"
+    "description slider"
+    ". slider";
+  justify-content: space-between;
+  padding-block: 90px 92px;
+}
+
+.title {
+  grid-area: title;
+}
+
+.description {
+  grid-area: description;
+  width: 354px;
+}
+
+.slider {
+  grid-area: slider;
+  background-color: var(--color-white);
+}
