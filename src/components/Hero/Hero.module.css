@@ -1,3 +1,9 @@
+.hero {
+  background-image: url("@/assets/images/hero-background.png");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}
+
 .content {
   display: grid;
   grid-template-columns: 426px 856px;
@@ -21,5 +27,6 @@
 
 .slider {
   grid-area: slider;
+  height: 545px;
   background-color: var(--color-white);
 }
