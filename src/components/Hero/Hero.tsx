@@ -11,7 +11,7 @@ export const Hero = () => {
       <Container>
         <div className={styles.content}>
           <div className={styles.title}>
-            <Heading>{data.title}</Heading>
+            <Heading as={'h1'} variant={'display'}>{data.title}</Heading>
           </div>
           <div className={styles.description}>
             <Description paragraphs={data.description} />

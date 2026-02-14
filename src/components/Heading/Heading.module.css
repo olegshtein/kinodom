@@ -1,5 +1,11 @@
-.h1 {
+.display {
   font-size: 48px;
   font-weight: 800;
   line-height: 1.2;
+}
+
+.xl {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
 }

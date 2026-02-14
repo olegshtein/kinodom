@@ -2,9 +2,9 @@ import type { Props } from './Heading.types'
 import styles from './Heading.module.css'
 
 export const Heading = (props: Props) => {
-  const { children } = props
+  const { as: Component, variant, children } = props
 
   return (
-    <h1 className={styles.h1}>{children}</h1>
+    <Component className={styles[variant]}>{children}</Component>
   )
 }
