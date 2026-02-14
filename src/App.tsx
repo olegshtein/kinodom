@@ -1,5 +1,6 @@
 import { Header } from './components/Header/Header'
 import { Hero } from './components/Hero/Hero'
+import { AdvantagesSection } from './components/AdvantagesSection/AdvantagesSection'
 import './styles'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Hero />
+      <AdvantagesSection />
     </>
   )
 }
