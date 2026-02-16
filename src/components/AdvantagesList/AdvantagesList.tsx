@@ -1,3 +1,4 @@
+import { Advantage } from '@/components/Advantage/Advantage'
 import type { Props } from './AdvantagesList.types'
 import styles from './AdvantagesList.module.css'
 
@@ -6,9 +7,9 @@ export const AdvantagesList = (props: Props) => {
 
   return (
     <ul className={styles.advantagesList}>
-      {advantagesList.map(({ imageName, title, description }) => (
+      {advantagesList.map((advantage) => (
         <li className={styles.advantage}>
-          {imageName}, {title}, {description}
+          <Advantage {...advantage} />
         </li>
       ))}
     </ul>

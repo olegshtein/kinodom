@@ -2,27 +2,27 @@ export const advantagesSectionContent = {
   title: 'Преимущества КиноДома',
   advantagesList: [
     {
-      imageName: 'avatar.png',
+      imageName: 'avatar',
       title: 'Большой выбор',
       description: [
         '10 000 фильмов и сериалов уже в библиотеке.Ежедневное пополнение новинками кино',
       ],
     },
     {
-      imageName: 'iron-man.png',
+      imageName: 'iron-man',
       title: 'Список рекомендаций',
       description: [
         'Персонализированный список рекомендаций, подобранных на основе ваших интересов',
       ],
     },
-    { imageName: 'little-yoda.png',
+    { imageName: 'little-yoda',
       title: 'Лучшее мировое кино',
       description: [
         'Кино, сериалы со всего мира, включая Европу и Азию.А также достойное российское кино',
       ],
     },
     {
-      imageName: 'human.png',
+      imageName: 'human',
       title: 'Месяц бесплатно',
       description: [
         'Весь каталог КиноДома и все новинки кино и сериало - бесплатно целый месяц после регистрации',
