@@ -9,9 +9,15 @@ export const Advantage = (props: Props) => {
 
   return (
     <div className={styles.advantage}>
-      <Thumbnail imageName={imageName} />
-      <Heading as='h3' variant='lg'>{title}</Heading>
-      <Description paragraphs={description} />
+      <div className={styles.thumbnail}>
+        <Thumbnail imageName={imageName} />
+      </div>
+      <div className={styles.heading}>
+        <Heading as='h3' variant='lg'>{title}</Heading>
+      </div>
+      <div className={styles.description}>
+        <Description paragraphs={description} />
+      </div>
     </div>
   )
 }
