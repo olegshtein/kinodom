@@ -1,7 +1,8 @@
 import { Header } from './components/Header/Header'
 import { Hero } from './components/Hero/Hero'
 import { AdvantagesSection } from './components/AdvantagesSection/AdvantagesSection'
-import { advantagesSectionContent } from './config/advantagesSection.ts'
+import { CatalogSection } from '@/components/CatalogSection/CatalogSection'
+import { advantagesSectionContent } from './config/advantagesSection'
 import './styles'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <AdvantagesSection {...advantagesSectionContent} />
+      <CatalogSection />
     </>
   )
 }
