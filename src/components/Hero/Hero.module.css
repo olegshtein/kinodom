@@ -19,6 +19,7 @@
 
 .title {
   grid-area: title;
+  margin-bottom: 20px;
 }
 
 .description {
