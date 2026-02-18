@@ -1,5 +1,6 @@
 .content {
   display: flex;
+  align-items: center;
   column-gap: 61px;
   padding-block: 30px;
 }
@@ -15,6 +16,10 @@
 
 .redLogo {
   color: var(--color-red);
+}
+
+.contentRight {
+  margin-left: auto;
 }
 
 .separator {

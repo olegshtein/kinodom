@@ -2,10 +2,12 @@
   --color-black-1: #141025;
   --color-black-2: #1A0335;
   --color-white: #FFFFFF;
+  --color-white-a50: #FFFFFF80;
   --color-gray: #CFD0D9;
   --color-red: #ED0A32;
 
   --border: var(--border-width) solid var(--color-white);
+  --border-a50: var(--border-width) solid var(--color-white-a50);
 
   --border-width: 1px;
 
@@ -13,10 +15,10 @@
   --border-radius-10: 10px;
   --border-radius-round: 50%;
 
-  --font-family-base: Inter, system-ui, -apple-system;
+  --font-family-base: ProximaNova, system-ui, -apple-system;
 
-  --container-max-width: 1400px;
-  --container-padding-x: 16px;
+  --container-max-width: 1600px;
+  --container-padding-x: 100px;
 
   --space-section: 120px;
 

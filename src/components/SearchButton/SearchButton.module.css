@@ -1,0 +1,5 @@
+.root {
+  display: flex;
+  column-gap: 6px;
+  color: var(--color-white-a50);
+}
