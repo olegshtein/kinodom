@@ -2,6 +2,7 @@ import { Header } from './components/Header/Header'
 import { Hero } from './components/Hero/Hero'
 import { AdvantagesSection } from './components/AdvantagesSection/AdvantagesSection'
 import { CatalogSection } from '@/components/CatalogSection/CatalogSection'
+import { ThematicCollectionsSection } from '@/components/ThematicCollectionsSection/ThematicCollectionsSection'
 import { advantagesSectionContent } from './config/advantagesSection'
 import './styles'
 
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <AdvantagesSection {...advantagesSectionContent} />
       <CatalogSection />
+      <ThematicCollectionsSection />
     </>
   )
 }
