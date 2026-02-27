@@ -4,7 +4,11 @@ import styles from './Catalog.module.css'
 export const Catalog = () => {
   return (
     <div className={styles.catalog}>
-      <Movies />
+      <Movies heading='Комедии' />
+      <Movies heading='Драмы' />
+      <Movies heading='Фэнтези' />
+      <Movies heading='Триллеры' />
+      <Movies heading='Детективы' />
     </div>
   )
 }
