@@ -1,0 +1,5 @@
+.discountsOptions {
+  display: grid;
+  grid-template-columns: 431px 421px;
+  column-gap: 278px;
+}
