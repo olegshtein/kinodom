@@ -1,7 +1,11 @@
-export const MediaType = () => {
+import type { mediaType } from '@/components/MediaType/MediaType.types'
+
+export const MediaType = (props: mediaType) => {
+  const { mediaType } = props
+
   return (
     <div>
-      Фильм
+      {mediaType}
     </div>
   )
 }
