@@ -1,3 +1,3 @@
 export type ratingProps = {
-  rating: string
+  rating: number
 }
