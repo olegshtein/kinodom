@@ -1,8 +1,9 @@
 import { Image } from '@/components/Image/Image'
 import { Heading } from '@/components/Heading/Heading'
+import type { thematicCollectionProps } from '@/components/ThematicCollection/ThematicCollection.types'
 import styles from './ThematicCollection.module.css'
 
-export const ThematicCollection = (props: { heading: string }) => {
+export const ThematicCollection = (props: thematicCollectionProps) => {
   const { heading } = props
 
   return (

@@ -1,23 +1,19 @@
 import {
   ThematicCollection
 } from '@/components/ThematicCollection/ThematicCollection'
+import type { thematicCollectionsProps } from '@/components/ThematicCollections/ThematicCollections.types'
 import styles from './ThematicCollections.module.css'
 
-export const ThematicCollections = () => {
+export const ThematicCollections = (props: thematicCollectionsProps) => {
+  const { collections } = props
+
   return (
     <ul className={styles.thematicCollections}>
-      <li>
-        <ThematicCollection heading="Любителям комиксов" />
-      </li>
-      <li>
-        <ThematicCollection heading="Классика фэнтези" />
-      </li>
-      <li>
-        <ThematicCollection heading="Японские мультфильмы" />
-      </li>
-      <li>
-        <ThematicCollection heading="Сатиристические мультсериалы" />
-      </li>
+      {collections.map(({ key, heading }) => (
+        <li key={key}>
+          <ThematicCollection heading={heading} />
+        </li>
+      ))}
     </ul>
   )
 }
