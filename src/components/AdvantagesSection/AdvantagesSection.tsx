@@ -1,11 +1,11 @@
 import { Heading } from '@/components/Heading/Heading'
 import { Container } from '@/components/Container/Container'
 import { AdvantagesList } from '@/components/AdvantagesList/AdvantagesList'
-import type { Props } from './AdvantagesSection.types'
+import { advantagesSectionContent } from '@/config/advantagesSection'
 import styles from './AdvantagesSection.module.css'
 
-export const AdvantagesSection = (props: Props) => {
-  const { title, advantagesList } = props
+export const AdvantagesSection = () => {
+  const { title, advantagesList } = advantagesSectionContent
 
   return (
     <section className={styles.advantagesSection}>

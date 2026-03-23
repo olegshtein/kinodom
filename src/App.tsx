@@ -4,7 +4,6 @@ import { AdvantagesSection } from './components/AdvantagesSection/AdvantagesSect
 import { CatalogSection } from '@/components/CatalogSection/CatalogSection'
 import { ThematicCollectionsSection } from '@/components/ThematicCollectionsSection/ThematicCollectionsSection'
 import { DiscountsSection } from '@/components/DiscountsSection/DiscountsSection'
-import { advantagesSectionContent } from './config/advantagesSection'
 import './styles'
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
     <>
       <Header />
       <Hero />
-      <AdvantagesSection {...advantagesSectionContent} />
+      <AdvantagesSection />
       <CatalogSection />
       <ThematicCollectionsSection />
       <DiscountsSection />
