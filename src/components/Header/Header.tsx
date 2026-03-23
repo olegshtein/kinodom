@@ -1,7 +1,8 @@
 import { Container } from '@/components/Container/Container'
+import { Logo } from '@/components/Logo/Logo'
 import { NavigationMenu } from '@/components/NavigationMenu/NavigationMenu'
 import { ActionsMenu } from '@/components/ActionsMenu/ActionsMenu'
-import { Separator } from '@base-ui/react'
+import { Separator } from '@/components/Separator/Separator'
 import styles from './Header.module.css'
 
 export const Header = () => {
@@ -9,16 +10,13 @@ export const Header = () => {
     <header className={styles.header}>
       <Container>
         <div className={styles.content}>
-          <a className={styles.logo} href="/">
-            Кино
-            <span className={styles.redLogo}>дом</span>
-          </a>
+          <Logo />
           <NavigationMenu />
           <div className={styles.contentRight}>
             <ActionsMenu />
           </div>
         </div>
-        <Separator className={styles.separator} />
+        <Separator />
       </Container>
     </header>
   )

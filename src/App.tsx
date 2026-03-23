@@ -4,6 +4,7 @@ import { AdvantagesSection } from './components/AdvantagesSection/AdvantagesSect
 import { CatalogSection } from '@/components/CatalogSection/CatalogSection'
 import { ThematicCollectionsSection } from '@/components/ThematicCollectionsSection/ThematicCollectionsSection'
 import { DiscountsSection } from '@/components/DiscountsSection/DiscountsSection'
+import { Footer } from '@/components/Footer/Footer'
 import './styles'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <CatalogSection />
       <ThematicCollectionsSection />
       <DiscountsSection />
+      <Footer />
     </>
   )
 }
