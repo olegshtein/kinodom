@@ -3,3 +3,9 @@ body {
   background-color: var(--color-black-1);
   color: var(--color-white);
 }
+
+.root {
+  & > * + * {
+    margin-top: 60px;
+  }
+}

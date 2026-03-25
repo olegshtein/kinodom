@@ -1,0 +1,25 @@
+.thematicCollection {
+  position: relative;
+  display: grid;
+  align-items: end;
+  width: 335px;
+  height: 335px;
+  padding: 25px;
+  border-radius: 10px;
+  overflow: hidden;
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.image {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.heading {
+  width: 196px;
+}

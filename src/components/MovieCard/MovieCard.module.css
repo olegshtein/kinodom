@@ -1,0 +1,18 @@
+.poster {
+  width: 335px;
+  height: 225px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.meta {
+  display: flex;
+  column-gap: 3px;
+  margin-bottom: 3px;
+  color: var(--color-white-a50);
+}
+
+.name {
+
+}

@@ -1,0 +1,10 @@
+.content {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 60px 81px;
+  padding-block: 50px 30px;
+}
+
+.copyright {
+  color: var(--color-white-a20);
+}

@@ -1,0 +1,5 @@
+.advantagesList {
+  display: grid;
+  grid-template-columns: repeat(4, 335px);
+  justify-content: space-between;
+}
