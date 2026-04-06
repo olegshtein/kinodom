@@ -1,23 +1,15 @@
-import { Header } from './components/Header/Header'
-import { Hero } from './components/Hero/Hero'
-import { AdvantagesSection } from './components/AdvantagesSection/AdvantagesSection'
-import { CatalogSection } from '@/components/CatalogSection/CatalogSection'
-import { ThematicCollectionsSection } from '@/components/ThematicCollectionsSection/ThematicCollectionsSection'
-import { DiscountsSection } from '@/components/DiscountsSection/DiscountsSection'
-import { Footer } from '@/components/Footer/Footer'
 import './styles'
+import { BrowserRouter, Route, Routes } from 'react-router'
+import { MainPage } from '@/components/MainPage/MainPage'
 
 function App() {
   return (
-    <>
-      <Header />
-      <Hero />
-      <AdvantagesSection />
-      <CatalogSection />
-      <ThematicCollectionsSection />
-      <DiscountsSection />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/movies/:movie" element={<div>Страница фильма</div>} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
