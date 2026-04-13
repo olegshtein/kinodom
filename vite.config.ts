@@ -21,6 +21,7 @@ export default defineConfig({
     },
     env: {
       builtin: true,
+      browser: true,
     },
     ignorePatterns: ["dist"],
     overrides: [
