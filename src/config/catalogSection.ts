@@ -1,174 +1,177 @@
+import { nanoid } from "nanoid";
+
 export const catalogSectionContent = {
-  heading: 'Каталог фильмов и сериалов',
+  heading: "Каталог фильмов и сериалов",
   catalog: [
     {
-      key: crypto.randomUUID(),
-      heading: 'Комедии',
+      key: nanoid(),
+      heading: "Комедии",
       movies: [
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
       ],
     },
     {
-      key: crypto.randomUUID(),
-      heading: 'Драмы',
+      key: nanoid(),
+      heading: "Драмы",
       movies: [
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
       ],
     },
     {
-      key: crypto.randomUUID(),
-      heading: 'Фэнтези',
+      key: nanoid(),
+      heading: "Фэнтези",
       movies: [
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
-          rating: 9.8, mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          key: nanoid(),
+          name: "Спасатели Малибу",
+          rating: 9.8,
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
       ],
     },
     {
-      key: crypto.randomUUID(),
-      heading: 'Триллеры',
+      key: nanoid(),
+      heading: "Триллеры",
       movies: [
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
       ],
     },
     {
-      key: crypto.randomUUID(),
-      heading: 'Детективы',
+      key: nanoid(),
+      heading: "Детективы",
       movies: [
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
         {
-          key: crypto.randomUUID(),
-          name: 'Спасатели Малибу',
+          key: nanoid(),
+          name: "Спасатели Малибу",
           rating: 9.8,
-          mediaType: 'Фильм',
-          genres: 'Комедия, боевик'
+          mediaType: "Фильм",
+          genres: "Комедия, боевик",
         },
       ],
     },
   ],
-}
+};

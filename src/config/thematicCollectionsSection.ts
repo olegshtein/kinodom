@@ -1,21 +1,23 @@
+import { nanoid } from "nanoid";
+
 export const thematicCollectionsSectionContent = {
-  heading: 'Тематические подборки',
+  heading: "Тематические подборки",
   collections: [
     {
-      key: crypto.randomUUID(),
-      heading: 'Любителям комиксов',
+      key: nanoid(),
+      heading: "Любителям комиксов",
     },
     {
-      key: crypto.randomUUID(),
-      heading: 'Классика фэнтези',
+      key: nanoid(),
+      heading: "Классика фэнтези",
     },
     {
-      key: crypto.randomUUID(),
-      heading: 'Японские мультфильмы',
+      key: nanoid(),
+      heading: "Японские мультфильмы",
     },
     {
-      key: crypto.randomUUID(),
-      heading: 'Сатиристические мультсериалы',
+      key: nanoid(),
+      heading: "Сатиристические мультсериалы",
     },
   ],
-}
+};
