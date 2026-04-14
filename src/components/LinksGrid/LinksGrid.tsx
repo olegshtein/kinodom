@@ -8,13 +8,22 @@ export const LinksGrid = () => {
         <div className={`${styles.cell} ${styles[mod]}`} key={key}>
           <div className={styles.label}>{label}</div>
           <ul className={styles.linksList}>
-            {links.map(({ key, href, anchor }) => (
-              <li key={key}>
-                <a className={styles.link} href={href} target="_blank">
-                  {anchor}
-                </a>
-              </li>
-            ))}
+            {links.map((link) => {
+              const mod = "mod" in link ? link.mod : "";
+              const { key, href, anchor } = link;
+
+              return (
+                <li className={styles.linksListItem} key={key}>
+                  <a
+                    className={`${styles.link} ${styles[mod] ? styles[mod] : ""}`}
+                    href={href}
+                    target="_blank"
+                  >
+                    {anchor}
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </div>
       ))}

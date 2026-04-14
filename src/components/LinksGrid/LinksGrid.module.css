@@ -7,12 +7,6 @@
   gap: 35px 153px;
 }
 
-.link {
-  &:any-link {
-    color: var(--color-white-a35);
-  }
-}
-
 .cell {
   &.menu {
     grid-area: menu;
@@ -33,4 +27,29 @@
 
 .label {
   margin-bottom: 8px;
+}
+
+.linksList {
+  display: grid;
+  row-gap: 10px;
+}
+
+.link {
+  &:any-link {
+    color: var(--color-white-a35);
+  }
+
+  &.phone,
+  &.email {
+    padding-left: 30px;
+    background: no-repeat 0 center;
+  }
+
+  &.phone {
+    background-image: url(@/assets/icons/phone.svg);
+  }
+
+  &.email {
+    background-image: url(@/assets/icons/email.svg);
+  }
 }
