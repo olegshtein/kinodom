@@ -51,9 +51,9 @@ export const footerLinksGridContent = {
       mod: "subscribe",
       label: "Подписывайтесь на нас",
       links: [
-        { key: nanoid(), href: "", anchor: "facebook" },
-        { key: nanoid(), href: "", anchor: "vk" },
-        { key: nanoid(), href: "", anchor: "instagram" },
+        { key: nanoid(), mod: "facebook", href: "", anchor: "" },
+        { key: nanoid(), mod: "vk", href: "", anchor: "" },
+        { key: nanoid(), mod: "instagram", href: "", anchor: "" },
       ],
     },
   ],

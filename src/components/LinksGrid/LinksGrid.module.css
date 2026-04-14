@@ -32,6 +32,12 @@
 .linksList {
   display: grid;
   row-gap: 10px;
+
+  .cell.subscribe & {
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    column-gap: 15px;
+  }
 }
 
 .link {
@@ -51,5 +57,26 @@
 
   &.email {
     background-image: url(@/assets/icons/email.svg);
+  }
+
+  &.facebook,
+  &.vk,
+  &.instagram {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: no-repeat 0 center;
+  }
+
+  &.facebook {
+    background-image: url(@/assets/icons/facebook.svg);
+  }
+
+  &.vk {
+    background-image: url(@/assets/icons/vk.svg);
+  }
+
+  &.instagram {
+    background-image: url(@/assets/icons/instagram.svg);
   }
 }
