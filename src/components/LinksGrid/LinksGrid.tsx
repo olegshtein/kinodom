@@ -1,38 +1,21 @@
-import styles from './LinksGrid.module.css'
+import { footerLinksGridContent } from "@/config/footerLinksGrid";
+import styles from "./LinksGrid.module.css";
 
 export const LinksGrid = () => {
   return (
     <div className={styles.linksGrid}>
-      <div className={styles.column}>
-        <div className={styles.label}></div>
-        <ul className={styles.linksList}>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </div>
-      <div className={styles.column}>
-        <div className={styles.label}></div>
-        <ul className={styles.linksList}>
-          
-        </ul>
-      </div>
-      <div className={styles.column}>
-        <div className={styles.label}></div>
-        <ul className={styles.linksList}></ul>
-      </div>
-      <div className={styles.column}>
-        <div className={styles.label}></div>
-        <ul className={styles.linksList}>
-          
-        </ul>
-      </div>
-      <div className={styles.column}>
-        <div className={styles.label}></div>
-        <ul className={styles.linksList}>
-          
-        </ul>
-      </div>
+      {footerLinksGridContent.cells.map(({ label, links }) => (
+        <div className={styles.cell}>
+          <div className={styles.label}>{label}</div>
+          <ul className={styles.linksList}>
+            {links.map(({ href, anchor }) => (
+              <li>
+                <a href={href}>{anchor}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </div>
-  )
-}
+  );
+};
