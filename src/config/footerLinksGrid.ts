@@ -42,8 +42,8 @@ export const footerLinksGridContent = {
       mod: "support",
       label: "Техническая поддержка",
       links: [
-        { key: nanoid(), mod: "phone", href: "", anchor: "8 800 800 80 80" },
-        { key: nanoid(), mod: "email", href: "", anchor: "support@main.ru" },
+        { key: nanoid(), mod: "phone", href: "tel:88008008080", anchor: "8 800 800 80 80" },
+        { key: nanoid(), mod: "email", href: "mailto:support@mail.ru", anchor: "support@mail.ru" },
       ],
     },
     {
