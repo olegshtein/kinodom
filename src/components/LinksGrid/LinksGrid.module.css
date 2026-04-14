@@ -1,4 +1,36 @@
-.LinksGrid {
+.linksGrid {
   display: grid;
+  grid-template-columns: repeat(4, max-content);
+  grid-template-areas:
+    "menu moviesAndSeries cooperation support"
+    "menu moviesAndSeries cooperation subscribe";
   gap: 35px 153px;
+}
+
+.link {
+  &:any-link {
+    color: var(--color-white-a35);
+  }
+}
+
+.cell {
+  &.menu {
+    grid-area: menu;
+  }
+  &.moviesAndSeries {
+    grid-area: moviesAndSeries;
+  }
+  &.cooperation {
+    grid-area: cooperation;
+  }
+  &.support {
+    grid-area: support;
+  }
+  &.subscribe {
+    grid-area: subscribe;
+  }
+}
+
+.label {
+  margin-bottom: 8px;
 }
