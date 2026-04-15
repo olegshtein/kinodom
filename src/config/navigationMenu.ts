@@ -1,5 +1,7 @@
+import { nanoid } from "nanoid";
+
 export const navigationMenuItems = [
-  { key: crypto.randomUUID(), href: '/movies', anchor: 'Фильмы' },
-  { key: crypto.randomUUID(), href: '/series', anchor: 'Сериалы' },
-  { key: crypto.randomUUID(), href: '/selections', anchor: 'Подборки' },
-]
+  { key: nanoid(), href: "/movies", anchor: "Фильмы" },
+  { key: nanoid(), href: "/series", anchor: "Сериалы" },
+  { key: nanoid(), href: "/selections", anchor: "Подборки" },
+];

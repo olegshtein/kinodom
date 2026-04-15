@@ -1,4 +1,82 @@
 .linksGrid {
   display: grid;
+  grid-template-columns: repeat(4, max-content);
+  grid-template-areas:
+    "menu moviesAndSeries cooperation support"
+    "menu moviesAndSeries cooperation subscribe";
   gap: 35px 153px;
+}
+
+.cell {
+  &.menu {
+    grid-area: menu;
+  }
+  &.moviesAndSeries {
+    grid-area: moviesAndSeries;
+  }
+  &.cooperation {
+    grid-area: cooperation;
+  }
+  &.support {
+    grid-area: support;
+  }
+  &.subscribe {
+    grid-area: subscribe;
+  }
+}
+
+.label {
+  margin-bottom: 8px;
+}
+
+.linksList {
+  display: grid;
+  row-gap: 10px;
+
+  .cell.subscribe & {
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    column-gap: 15px;
+  }
+}
+
+.link {
+  &:any-link {
+    color: var(--color-white-a35);
+  }
+
+  &.phone,
+  &.email {
+    padding-left: 30px;
+    background: no-repeat 0 center;
+  }
+
+  &.phone {
+    background-image: url(@/assets/icons/phone.svg);
+  }
+
+  &.email {
+    background-image: url(@/assets/icons/email.svg);
+  }
+
+  &.facebook,
+  &.vk,
+  &.instagram {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: no-repeat 0 center;
+  }
+
+  &.facebook {
+    background-image: url(@/assets/icons/facebook.svg);
+  }
+
+  &.vk {
+    background-image: url(@/assets/icons/vk.svg);
+  }
+
+  &.instagram {
+    background-image: url(@/assets/icons/instagram.svg);
+  }
 }
